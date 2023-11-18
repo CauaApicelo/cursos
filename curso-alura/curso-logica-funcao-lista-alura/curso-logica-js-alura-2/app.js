@@ -28,7 +28,7 @@ exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
 
 function verificarChute(params) {
     let chute = document.querySelector('input').value; //pegar o valor do input
-    console.log(chute ==numeroSecreto);
+    console.log(chute == numeroSecreto);
 }
 
 function gerarNumeroAleatorioi(params) {
